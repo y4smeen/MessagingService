@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Messages</title>
+	<link rel="shortcut icon" href="http://i122.photobucket.com/albums/o260/mhilka/minigifs/balaozinho21.gif" type="gif"/>
 	<style type="text/css">
 		body {
 			text-align: center;
@@ -11,11 +12,28 @@
 			color: white;
 			font-family: helvetica;
 		}
+		input {
+			height: 20px;
+			font-family: helvetica;
+			font-size: 12px;
+			border: 1px solid #6d6d6d;
+			border-radius: 7px;
+			box-shadow: 0 0 4px #b9b9b9;
+			background-color: #ffffff
+		}
 	</style>
 </head>
 <body>
+	<form action="/search" method="get">
+		<input type="text" name="q" value="" placeholder="Search..." style="width:150px; color: #868686; margin-top:2px; margin-left:2px;"/>
+		<input type="button" value="Go" style="color: #4d4d4d;"/>
+	</form>
 	<h1>Messages</h1>
-	<input type="search" placeholder="Search...">
-	<input type="submit" placeholder="Submit">
+	<!-- <script language="JavaScript" src="http://freehostedscripts.net/clock.php?id=c1"></script><br> || this is a clock 
+
+	<button onclick="document.getElementById('a').innerHTML = 'hello';">asdf</button>
+	<p id="a">aasdfjaksj;</p> -->
 </body>
+
 </html>
+
